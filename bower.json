@@ -1,0 +1,18 @@
+{
+  "name": "oky1Bower",
+  "description": "lern",
+  "main": "index.js",
+  "authors": [
+    "oky1"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "oky.16mb.com",
+  "dependencies": {
+    "angular": "~1.4.7",
+    "bootstrap": "~3.3.5"
+  },
+  "install": {
+    "path": "client/libs"
+  }
+}
