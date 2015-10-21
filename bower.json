@@ -10,7 +10,10 @@
   "homepage": "oky.16mb.com",
   "dependencies": {
     "angular": "~1.4.7",
-    "bootstrap": "~3.3.5"
+    "bootstrap": "~3.3.5",
+    "bootstrap-css": "~3.3.4",
+    "angular-route": "~1.4.7",
+    "angular-bootstrap" :"~0.13.0"
   },
   "install": {
     "path": "client/libs"
