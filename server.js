@@ -6,7 +6,13 @@ var express = require("express");
 var app = express();
 
 //native NodeJs module for resolving paths
-var path = require("path")
+var path = require("path");
+
+//connect with Mongoose db
+//var mongoose = require("mongoose");
+//var configDB = require("./server/config/database.js");
+//mongoose.connect(configDB.url);
+
 
 //get our port # from c 9's enviromental variable: PORT
 var port = process.env.PORT;
