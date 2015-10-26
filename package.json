@@ -1,5 +1,5 @@
 {
-  "name": "oky1_lern",
+  "name": "oky1_tutorial,
   "version": "1.0.0",
   "description": "lern",
   "main": "index.js",
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.3.4",
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "mongoose": "^4.2.2"
   }
 }

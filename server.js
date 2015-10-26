@@ -9,9 +9,9 @@ var app = express();
 var path = require("path");
 
 //connect with Mongoose db
-//var mongoose = require("mongoose");
-//var configDB = require("./server/config/database.js");
-//mongoose.connect(configDB.url);
+var mongoose = require("mongoose");
+var configDB = require("./server/config/database.js");
+mongoose.connect(configDB.url);
 
 
 //get our port # from c 9's enviromental variable: PORT
